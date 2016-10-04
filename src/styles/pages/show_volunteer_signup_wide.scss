@@ -1,0 +1,21 @@
+.page-pages-show-volunteer-signup-wide {
+  .one-column {
+    @include make-row();
+
+     .headline,
+     .intro {
+      @include make-one-main-column();
+    }
+
+    .form-wrap {
+      @include make-md-column(12);
+      .form {
+        @extend .well;
+      }
+    }
+
+    .like-page {
+      @include make-md-column(12);
+    }
+  }
+}

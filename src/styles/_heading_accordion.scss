@@ -1,0 +1,10 @@
+.data-toggle-collapse:hover,
+.data-toggle-collapse:active,
+.data-toggle-collapse:focus {
+  text-decoration: none;
+}
+
+.data-toggle-collapse:active,
+.data-toggle-collapse:focus {
+  color: $link-color;
+}

@@ -1,0 +1,84 @@
+body {
+  margin: auto;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+.container-signup {
+  form {
+    @extend .form-horizontal;
+  }
+  h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+  }
+}
+
+.container-signup-footer {
+  @extend .container-signup;
+  margin-bottom: -160px;
+}
+
+.text-important {
+  font-weight: bold;
+  color: $brand-secondary;
+}
+
+footer {
+  border-top: 40px solid $brand-secondary;
+  background-color: #f5f5f5;
+  margin-bottom: 0px;
+  font-family: $font-family-sans-serif;
+  hr {
+    border-color: $gray-lighter;
+  }
+
+  .social {
+    padding-top: 35px;
+  }
+}
+
+button, .btn {
+  transition: all 0.3s ease 0s;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+}
+
+.btn-cloud {
+    .btn {
+      margin: 5px;
+    }
+}
+
+a.alt-color {
+  color: $brand-secondary;
+
+  &:hover, &:active {
+    color: darken($brand-secondary, 15%);
+  }
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  &.alt-color {
+    color: $brand-secondary;
+  }
+}
+
+.error-message {
+  @extend .text-danger;
+}
+
+@mixin make-one-main-column() {
+  @include make-sm-column(12);
+  @include make-md-column(10);
+  @include make-md-column-offset(1);
+  @include make-lg-column(8);
+  @include make-lg-column-offset(2);
+}
+
+.map {
+  height: 500px !important;
+}
