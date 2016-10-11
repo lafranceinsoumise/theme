@@ -44,7 +44,9 @@ $(function() {
 
         $el
           .width(newWidth)
-          .height(newWidth * $el.data('aspectRatio'));
+          .height(newWidth * $el.data('aspectRatio'))
+          .css('margin-top', '10px')
+          .css('margin-bottom', '10px');
       });
     // Kick off one resize to fix all videos on page load
     }).resize();
