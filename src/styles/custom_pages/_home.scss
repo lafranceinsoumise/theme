@@ -92,7 +92,13 @@ html, body {
   }
 }
 
-.custom-home-grid {
+.custom-home-grid.row {
+  margin:0px;
+  
+  .col-md-6 {
+    padding: 0px;
+  }
+
   a {
     display:block;
     position:relative;
