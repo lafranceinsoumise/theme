@@ -92,10 +92,13 @@ html, body {
   }
 }
 
+body.slug-home > .main-container > .main.container {
+  width: inherit;
+  margin-bottom: -40px;
+}
+
 .custom-home-grid.row {
-  margin:0px;
-  
-  .col-md-6 {
+  .col-sm-6 {
     padding: 0px;
   }
 
