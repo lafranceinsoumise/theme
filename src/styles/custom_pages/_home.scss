@@ -41,9 +41,7 @@ html, body {
       .menu {
         @include make-xs-column(6);
         @include make-sm-column(3);
-        & > .menu {
-          @extend .nav-pills;
-          @extend .nav-stacked;
+        .nav-stacked {
           & > li {
             a {
               font-family: $font-family-sans-serif;
