@@ -82,7 +82,3 @@ h1, h2, h3, h4, h5, h6,
 .col-responsive {
   @include make-one-main-column();
 }
-
-.map {
-  height: 500px !important;
-}
