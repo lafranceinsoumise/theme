@@ -9,7 +9,7 @@ See it at https://jlm2017.github.io/theme/
 You need [jekyll](https://jekyllrb.com/) installed.
 
 ```
-git clone git@github.com:guilro/theme.git jlm2017-theme
+git clone https://github.com/jlm2017/theme jlm2017-theme
 cd jlm2017-theme
 jekyll serve --watch
 ```
