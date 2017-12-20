@@ -1,15 +1,15 @@
-# Theme JLM 2017
+# Theme La France insoumise
 
-Global theme utilities for JLM 2017
+Global theme utilities for France insoumise.
 
-See it at https://jlm2017.github.io/theme/
+See it at https://lafranceinsoumise.github.io/theme/
 
 # Development
 
 You need [jekyll](https://jekyllrb.com/) installed.
 
 ```
-git clone https://github.com/jlm2017/theme jlm2017-theme
-cd jlm2017-theme
+git clone git@github.com:lafranceinsoumise/theme.git lfi-theme
+cd lfi-theme
 jekyll serve --watch
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "jlm2017-css",
+  "name": "@fi/theme",
   "version": "0.1.0",
   "description": "Boostrap and cutom components for JLM 2017",
   "dependencies": {
@@ -22,5 +22,5 @@
     "watch": "gulp watch"
   },
   "author": "Guillaume Royer <perso@guilro.com>",
-  "license": "MIT"
+  "license": "AGPL-3.0"
 }
