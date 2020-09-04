@@ -1,6 +1,6 @@
 {
   "name": "@fi/theme",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Boostrap and custom components for La France insoumise",
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
