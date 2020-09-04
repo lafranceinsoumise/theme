@@ -21,6 +21,6 @@
     "build": "gulp",
     "watch": "gulp watch"
   },
-  "author": "Guillaume Royer <perso@guilro.com>",
+  "author": "Jill Royer <perso@jillroyer.me>",
   "license": "AGPL-3.0"
 }
