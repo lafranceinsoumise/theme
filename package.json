@@ -1,7 +1,7 @@
 {
   "name": "@fi/theme",
   "version": "0.1.0",
-  "description": "Boostrap and cutom components for JLM 2017",
+  "description": "Boostrap and custom components for La France insoumise",
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "eonasdan-bootstrap-datetimepicker": "^4.17.42",
