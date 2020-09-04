@@ -4,10 +4,7 @@
   "description": "Boostrap and custom components for La France insoumise",
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
-    "eonasdan-bootstrap-datetimepicker": "^4.17.42",
-    "eslint": "^3.7.1",
-    "eslint-config-google": "^0.6.0",
-    "file-loader": "^6.1.0"
+    "eonasdan-bootstrap-datetimepicker": "^4.17.42"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,6 +18,9 @@
     "sass": "^1.26.10",
     "sass-loader": "^10.0.2",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "eslint": "^7.8.1",
+    "eslint-config-google": "^0.14.0",
+    "file-loader": "^6.1.0"
   }
 }
