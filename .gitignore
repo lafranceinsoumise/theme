@@ -46,4 +46,4 @@ jspm_packages
 _site
 .idea/
 .jekyll-cache/
-dist/theme.js.map
+dist/theme.js*

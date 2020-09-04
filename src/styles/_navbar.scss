@@ -32,5 +32,25 @@
     padding-top: 19px;
     padding-bottom: 19px;
   }
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: $zindex-dropdown;
+    display: none; // none by default, but block on "open" of the menu
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0; // override default ul
+    font-size: $font-size-base;
+    text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+    list-style: none;
+    background-color: $dropdown-bg;
+    background-clip: padding-box;
+    border: 1px solid $dropdown-fallback-border; // IE8 fallback
+    border: 1px solid $dropdown-border;
+    border-radius: $border-radius-base;
+    @include box-shadow(0 6px 12px rgba(0, 0, 0, .175));
+  }
   box-shadow: 1px 4px 7px 2px rgba(0,0,0,0.3);
 }
