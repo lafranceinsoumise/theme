@@ -26,14 +26,20 @@
   margin-top: -$navbar-margin-bottom;
   min-height: 60px;
   border-radius: 0px;
+
+  /* Rewrite everything so dropdown don't collapse in navbar */
   .navbar-nav > li > a {
     padding-top: 19px;
     padding-bottom: 19px;
   }
+
+  .divider {
+    @include nav-divider($dropdown-divider-bg);
+  }
+
   .navbar-nav .open .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 0;
     z-index: $zindex-dropdown;
     float: left;
     min-width: 160px;
