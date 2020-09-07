@@ -34,7 +34,8 @@
   }
 
   .divider {
-    @include nav-divider($dropdown-divider-bg) !important;
+    @include nav-divider($dropdown-divider-bg);
+    background-color: $dropdown-divider-bg !important;
   }
 
   .navbar-nav .open .dropdown-menu {
