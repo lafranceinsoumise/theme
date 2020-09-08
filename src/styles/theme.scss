@@ -3,19 +3,13 @@
 // Bootstrap components
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../node_modules/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker";
-// Nationbuilder default styles
-@import "nb_default/styles";
+
+// Default styles
+@import "defaults/styles";
 
 @import "layout";
-
-// Template pages
-@import "pages/show_basic_wide";
-@import "pages/show_volunteer_signup_wide";
 
 // Custom components
 @import "navbar";
 @import "card";
 @import "heading_accordion";
-
-// Custom pages;
-@import "custom_pages/home";

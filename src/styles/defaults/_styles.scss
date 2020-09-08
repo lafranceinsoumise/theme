@@ -1,0 +1,93 @@
+.module {
+	margin-top: $line-height-computed;
+	margin-bottom: $line-height-computed;
+}
+
+// Change default display for images
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+// Utils
+.padtop {
+	padding-top: $line-height-computed * .5;
+}
+
+.padbottom {
+	padding-bottom: $line-height-computed * .5;
+}
+
+.padtopless {
+	padding-top: $line-height-computed * .25;
+}
+
+.padbottomless {
+	padding-bottom: $line-height-computed * .25;
+}
+
+.padtopmore {
+	padding-top: $line-height-computed * .75;
+}
+
+.padbottommore {
+	padding-bottom: $line-height-computed * .75;
+}
+
+.margintopless {
+	margin-top: $line-height-computed * .5;
+}
+
+.margintop {
+	margin-top: $line-height-computed * .75;
+}
+
+.margintopmore {
+	margin-top: $line-height-computed;
+}
+
+.marginbottomless {
+	margin-bottom: $line-height-computed * .5;
+}
+
+.marginbottom {
+	margin-bottom: $line-height-computed * .75;
+}
+
+.marginbottommore {
+	margin-bottom: $line-height-computed;
+}
+
+.center {
+	text-align: center;
+}
+
+// Components
+.main-container, .breadcrumb, .excerpt, .page-tags, .event-block, .event-map, .event-detail, .continue, .page-follow, .like-page {
+	@extend .module;
+}
+
+// Theme
+.site-logo {
+	padding: 15px 15px 15px 0;
+}
+
+.navbar-brand {
+	height: auto;
+}
+
+.panel {
+	.excerpt-type {
+		margin-top: -.2em;
+	}
+}
+
+// Forms
+.form-group  {
+	label {
+		display: block;
+	}
+	input + input {
+		@extend .margintopless;
+	}
+}
